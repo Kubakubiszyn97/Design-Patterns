@@ -1,1 +1,1 @@
-﻿BuilderExamples.TestFluentRecursiveBuilder();
+﻿BuilderExamples.TestFacetedBuilder();
