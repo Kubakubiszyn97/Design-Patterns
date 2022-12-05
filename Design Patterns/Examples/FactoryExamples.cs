@@ -43,4 +43,11 @@ public static class FactoryExamples
         var point = InnerPoint.Factory.NewPolarPoint(1.0, MathF.PI / 2);
         Console.WriteLine(point.ToString());
     }
+
+    public static void TestAbstractFactory()
+    {
+        var machine = new HotDrinkMachine();
+        var drink = machine.MakeDrink(HotDrinkMachine.AvailableDrink.Tea, 100);
+        drink.Consume();
+    }
 }

@@ -1,1 +1,1 @@
-﻿FactoryExamples.TestTracking();
+﻿FactoryExamples.TestAbstractFactory();
