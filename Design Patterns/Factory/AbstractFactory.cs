@@ -52,6 +52,7 @@ namespace Design_Patterns.Factory
 
     public class HotDrinkMachine
     {
+        //THIS VIOLATES OPEN CLOSED PRINCIPLE
         public enum AvailableDrink
         {
             Coffe,

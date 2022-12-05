@@ -1,1 +1,1 @@
-﻿FactoryExamples.TestAbstractFactory();
+﻿FactoryExamples.TestAbstractFactoryOCP();

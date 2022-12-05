@@ -50,4 +50,12 @@ public static class FactoryExamples
         var drink = machine.MakeDrink(HotDrinkMachine.AvailableDrink.Tea, 100);
         drink.Consume();
     }
+    
+    public static void TestAbstractFactoryOCP()
+    {
+        HotDrinkMachineOCP machine = new HotDrinkMachineOCP();
+        machine.GetAvailableDrinks();
+        var drink = machine.MakeDrink(1);
+        drink.Consume();
+    }
 }
