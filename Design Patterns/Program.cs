@@ -1,1 +1,1 @@
-﻿FactoryExamples.TestAbstractFactoryOCP();
+﻿PrototypeExamples.TestPrototypeInheritance();
