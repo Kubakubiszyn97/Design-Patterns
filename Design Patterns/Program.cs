@@ -1,1 +1,1 @@
-﻿PrototypeExamples.TestPrototypeInheritance();
+﻿SingletonExamples.TestSingleton();
