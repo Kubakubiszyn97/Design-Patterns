@@ -1,1 +1,1 @@
-﻿SingletonExamples.TestSingleton();
+﻿SingletonExamples.TestAmbientContext();
