@@ -1,1 +1,1 @@
-﻿SingletonExamples.TestAmbientContext();
+﻿AdapterExamples.TestVectorRaster();
