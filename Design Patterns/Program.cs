@@ -1,1 +1,1 @@
-﻿AdapterExamples.TestVectorRaster();
+﻿CompositeExamples.TestComposite();
