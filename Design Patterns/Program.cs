@@ -1,1 +1,1 @@
-﻿CompositeExamples.TestComposite();
+﻿CompositeExamples.TestCompositeShapes();
