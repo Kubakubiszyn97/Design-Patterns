@@ -1,1 +1,1 @@
-﻿CompositeExamples.TestCompositeShapes();
+﻿DecoratorExamples.TestDynamicDecorator();
