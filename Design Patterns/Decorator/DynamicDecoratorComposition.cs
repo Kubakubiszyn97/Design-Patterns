@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Decorator
+namespace Design_Patterns.Decorator.Dynamic
 {
     public interface IShape
     {

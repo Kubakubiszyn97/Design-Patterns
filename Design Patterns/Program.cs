@@ -1,1 +1,1 @@
-﻿DecoratorExamples.TestDynamicDecorator();
+﻿FlyweightExamples.TestTextFormating();
