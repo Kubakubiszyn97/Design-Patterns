@@ -1,1 +1,1 @@
-﻿FlyweightExamples.TestTextFormating();
+﻿ProxyExamples.TestLogging();

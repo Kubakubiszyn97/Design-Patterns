@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ImpromptuInterface.MVVM" Version="4.0.13" />
     <PackageReference Include="MoreLinq.Portable" Version="1.4.0" />
   </ItemGroup>
 
