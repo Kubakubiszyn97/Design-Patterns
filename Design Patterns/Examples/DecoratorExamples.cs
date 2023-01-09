@@ -38,7 +38,6 @@ public class DecoratorExamples
     public static void TestMultipleInheritanceDefaultMembers()
     {
         DefaultMembers.Dragon d = new DefaultMembers.Dragon() { Age = 5 };
-
         //Default members require explicit converions
         if (d is DefaultMembers.IBird bird)
             bird.Fly();

@@ -1,1 +1,1 @@
-﻿ProxyExamples.TestLogging();
+﻿ChainOfResponsibilityExamples.TestCreatureModifiers();
