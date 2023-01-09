@@ -26,4 +26,21 @@ public class ChainOfResponsibilityExamples
         root.Handle();
         Console.WriteLine(goblin);
     }
+
+    public static void TestBrokerChain()
+    {
+        var game = new Game();
+        var goblin = new Monster(game, "Mariusz", 3, 3);
+        Console.WriteLine($"{goblin.Name} has attack: {goblin.Attack}, and defense: {goblin.Defense}");
+
+        using (new DoubleAttack(game, goblin))
+        {
+            using (new DoubleDefense(game, goblin))
+            {
+                Console.WriteLine($"{goblin.Name} has attack: {goblin.Attack}, and defense: {goblin.Defense}");
+            }
+        }
+
+        Console.WriteLine($"{goblin.Name} has attack: {goblin.Attack}, and defense: {goblin.Defense}");
+    }
 }

@@ -1,1 +1,1 @@
-﻿ChainOfResponsibilityExamples.TestCreatureModifiers();
+﻿ChainOfResponsibilityExamples.TestBrokerChain();
