@@ -1,1 +1,1 @@
-﻿ChainOfResponsibilityExamples.TestBrokerChain();
+﻿CommandExamples.TestSimpleCommandExample();
