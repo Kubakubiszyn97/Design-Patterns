@@ -1,1 +1,1 @@
-﻿CommandExamples.TestSimpleCommandExample();
+﻿CommandExamples.TestCompositeCommand();

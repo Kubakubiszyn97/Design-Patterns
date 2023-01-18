@@ -41,6 +41,11 @@ namespace Design_Patterns.Command
         void Undo();
     }
 
+    public enum Action
+    {
+        Deposit, Withdraw
+    }
+
     public class BankAccountCommand : ICommand
     {
         private BankAccount account;
@@ -48,11 +53,6 @@ namespace Design_Patterns.Command
         private Action action;
         private bool succeded;
         
-        public enum Action
-        {
-            Deposit, Withdraw
-        }
-
         public BankAccountCommand(BankAccount account, int amount, Action action)
         {
             this.account = account;
