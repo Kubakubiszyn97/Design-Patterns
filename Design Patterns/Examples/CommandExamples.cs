@@ -22,5 +22,10 @@ public class CommandExamples
             c.Call();
         }
         Console.WriteLine(ba);
-    }
-}
+
+        foreach (var c in Enumerable.Reverse(commands))// Does not mutate list
+        {
+            c.Undo();
+        }
+        Console.WriteLine(ba);
+    }}

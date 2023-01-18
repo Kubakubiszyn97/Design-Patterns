@@ -17,13 +17,15 @@ namespace Design_Patterns.Command
             Console.WriteLine($"Depisoted {amount}, balance is now {balance}");
         }
 
-        public void Withdraw(int amount)
+        public bool Withdraw(int amount)
         {
             if (balance - amount >= overdraftLimit)
             {
                 balance -= amount;
                 Console.WriteLine($"withdrew {amount}, balance is now {balance}");
+                return true;
             }
+            return false;
         }
 
         public override string ToString()
@@ -35,6 +37,8 @@ namespace Design_Patterns.Command
     public interface ICommand
     {
         void Call();
+
+        void Undo();
     }
 
     public class BankAccountCommand : ICommand
@@ -42,6 +46,7 @@ namespace Design_Patterns.Command
         private BankAccount account;
         private int amount;
         private Action action;
+        private bool succeded;
         
         public enum Action
         {
@@ -61,9 +66,24 @@ namespace Design_Patterns.Command
             {
                 case Action.Deposit:
                     account.Deposit(amount);
+                    succeded = true;
                     break;
                 case Action.Withdraw:
+                    succeded = account.Withdraw(amount);
+                    break;
+            }
+        }
+
+        public void Undo()
+        {
+            if (!succeded) return;
+            switch (action)
+            {
+                case Action.Deposit:
                     account.Withdraw(amount);
+                    break;
+                case Action.Withdraw:
+                    account.Deposit(amount);
                     break;
             }
         }
