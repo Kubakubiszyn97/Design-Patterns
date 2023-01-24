@@ -1,1 +1,1 @@
-﻿CommandExamples.TestCompositeCommand();
+﻿InterpreterExamples.TestLexInterprerter();
