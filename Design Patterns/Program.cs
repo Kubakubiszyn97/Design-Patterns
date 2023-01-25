@@ -1,1 +1,1 @@
-﻿InterpreterExamples.TestLexInterprerter();
+﻿IteratorExamples.TestIteratorObject();
