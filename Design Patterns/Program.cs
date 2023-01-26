@@ -1,1 +1,1 @@
-﻿MediatorExamples.TestChatRoom();
+﻿MementoExamples.TestMemento();
