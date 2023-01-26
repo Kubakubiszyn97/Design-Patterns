@@ -1,1 +1,1 @@
-﻿IteratorExamples.TestIteratorObject();
+﻿MediatorExamples.TestChatRoom();
