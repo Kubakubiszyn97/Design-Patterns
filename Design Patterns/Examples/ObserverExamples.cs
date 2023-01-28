@@ -28,7 +28,6 @@ public class ObserverExamples
 
         FireGC();
         Console.WriteLine($"Is the window alive after GC? {wr.IsAlive}");
-
     }
 
     private static void CallADoctor(object? sender, FallsIllEventArgs args)

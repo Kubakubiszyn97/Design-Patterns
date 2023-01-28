@@ -1,1 +1,1 @@
-﻿ObserverExamples.TestWeakEvents();
+﻿StateExamples.TestStateMachine();
