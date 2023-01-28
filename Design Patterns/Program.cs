@@ -1,1 +1,1 @@
-﻿MementoExamples.TestMemento();
+﻿MementoExamples.TestMementoRedoUndo();
