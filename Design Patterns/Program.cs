@@ -1,1 +1,1 @@
-﻿MementoExamples.TestMementoRedoUndo();
+﻿ObserverExamples.TestWeakEvents();
